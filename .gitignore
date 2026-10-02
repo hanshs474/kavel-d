@@ -1,5 +1,5 @@
 .dub/
-kavel
+/kavel
 *.a
 *.o
 dub.selections.json
