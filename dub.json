@@ -1,0 +1,13 @@
+{
+  "name": "kavel",
+  "description": "Generate AI images from D with no API key and no account.",
+  "homepage": "https://www.kavel.ai",
+  "authors": ["Kavel"],
+  "copyright": "Copyright (c) 2026 Kavel",
+  "license": "MIT",
+  "targetType": "library",
+  "configurations": [
+    { "name": "library", "targetType": "library", "excludedSourceFiles": ["source/app.d"] },
+    { "name": "cli", "targetType": "executable", "targetName": "kavel", "mainSourceFile": "source/app.d" }
+  ]
+}

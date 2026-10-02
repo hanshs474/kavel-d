@@ -1,0 +1,5 @@
+.dub/
+kavel
+*.a
+*.o
+dub.selections.json
